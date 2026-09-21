@@ -22,10 +22,10 @@ This project is an engineering module built by **DJIDEL Abdelali Rayan** (System
 
 ```mermaid
 graph TD
-    Conveyor[Conveyor Belt Transport] --> Sensor[RGB Optical Color Sensor]
-    Sensor --> Classifier[Color Classification Algorithm]
-    Classifier --> Arm[3-DOF Robotic Arm Kinematics]
-    Arm --> Bins[Target Bin Sorting (Red / Green / Blue)]
+    Conveyor["Conveyor Belt Transport"] --> Sensor["RGB Optical Color Sensor"]
+    Sensor --> Classifier["Color Classification Algorithm"]
+    Classifier --> Arm["3-DOF Robotic Arm Kinematics"]
+    Arm --> Bins["Target Bin Sorting (Red / Green / Blue)"]
 ```
 
 ---
